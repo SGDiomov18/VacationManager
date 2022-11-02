@@ -112,20 +112,17 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
     transition: 0.2s;
 }
 
-.HomeLogo:hover{
+.HomeLogo:hover {
 
     transform: scale(1.1);
-
 }
 
-
-
 .slideLogoDiv2{
-    display:block;
+    display: block;
     width: 10%;
     height: auto;
     margin: 0;
-    margin-left: 51%;
+    margin-left: 50%;
     transform: translateX(-200%);
     opacity: 0;
     animation: slide-in-anim2 2s ease-out forwards;
@@ -136,7 +133,6 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
 
 .text1{
     font-family: 'Raleway';
-    color: #151515;
     font-size: 50px;
     text-align: center;
     text-shadow: .1em .1em 0 hsla(9, 4%, 37%, 0.45);
@@ -146,6 +142,7 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
     opacity: 0;
     animation: slide-in-anim 1.5s ease-out forwards;
 }
+
 
 .text2{
     font-family: 'Raleway';
@@ -316,6 +313,7 @@ ul#shape li:nth-child(8) {
     }
 }
 
+
 @-webkit-keyframes animate-svg-stroke-1 {
     0% {
         stroke-dashoffset: 616.7996826171875px;
@@ -361,8 +359,10 @@ ul#shape li:nth-child(8) {
 }
 
 .svg-elem-1 {
-    -webkit-animation: animate-svg-stroke-1 1s ease 0s both, animate-svg-fill-1 0.7s ease-in 0.8s both;
-    animation: animate-svg-stroke-1 1s ease 0s both, animate-svg-fill-1 0.7s ease-in 0.8s both;
+    -webkit-animation: animate-svg-stroke-1 1s ease 1s both,
+    animate-svg-fill-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
+    animation: animate-svg-stroke-1 1s ease 1s both,
+    animate-svg-fill-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
 }
 
 @-webkit-keyframes animate-svg-stroke-2 {
@@ -410,10 +410,10 @@ ul#shape li:nth-child(8) {
 }
 
 .svg-elem-2 {
-    -webkit-animation: animate-svg-stroke-2 1s ease 0.12s both,
-    animate-svg-fill-2 0.7s ease-in 0.9s both;
-    animation: animate-svg-stroke-2 1s ease 0.12s both,
-    animate-svg-fill-2 0.7s ease-in 0.9s both;
+    -webkit-animation: animate-svg-stroke-2 1s ease 1.12s both,
+    animate-svg-fill-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
+    animation: animate-svg-stroke-2 1s ease 1.12s both,
+    animate-svg-fill-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
 }
 
 @-webkit-keyframes animate-svg-stroke-3 {
@@ -461,8 +461,10 @@ ul#shape li:nth-child(8) {
 }
 
 .svg-elem-3 {
-    -webkit-animation: animate-svg-stroke-3 1s ease 0.24s both, animate-svg-fill-3 0.7s ease-in 1s both;
-    animation: animate-svg-stroke-3 1s ease 0.24s both, animate-svg-fill-3 0.7s ease-in 1s both;
+    -webkit-animation: animate-svg-stroke-3 1s ease 1.24s both,
+    animate-svg-fill-3 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
+    animation: animate-svg-stroke-3 1s ease 1.24s both,
+    animate-svg-fill-3 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
 }
 
 @-webkit-keyframes animate-svg-stroke-4 {
@@ -510,12 +512,11 @@ ul#shape li:nth-child(8) {
 }
 
 .svg-elem-4 {
-    -webkit-animation: animate-svg-stroke-4 1s ease 0.36s both,
-    animate-svg-fill-4 0.7s ease-in 1.1s both;
-    animation: animate-svg-stroke-4 1s ease 0.36s both,
-    animate-svg-fill-4 0.7s ease-in 1.1s both;
+    -webkit-animation: animate-svg-stroke-4 1s ease 1.3599999999999999s both,
+    animate-svg-fill-4 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
+    animation: animate-svg-stroke-4 1s ease 1.3599999999999999s both,
+    animate-svg-fill-4 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
 }
-
 
 
 
