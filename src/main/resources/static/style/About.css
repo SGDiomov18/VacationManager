@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    overflow: hidden;
 
 }
 .section2{
@@ -348,6 +349,7 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
 .BigBox2{
     position:relative;
     left: 25px;
+    bottom: 100px;
     text-align:center;
     padding: 20px;
     flex-direction: column;
